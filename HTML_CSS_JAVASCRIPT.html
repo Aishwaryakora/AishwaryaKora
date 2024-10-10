@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tru Performance</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Tru Performance Logo">
+        </div>
+    </header>
+
+    <!-- Main Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>TRU PERFORMANCE DELIVERS <span class="highlight">40% GROWTH</span> IN WEB TRAFFIC AND MULTI-MILLION DOLLAR OPPORTUNITIES FOR CDG.</h1>
+            <p>Organizations often need a better-designed website. A poorly performing website hampers conversion and revenue.</p>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.jpg" alt="Person Working on Laptop">
+        </div>
+    </section>
+
+    <!-- Informational Section -->
+    <section class="info-section">
+        <div class="info-text">
+            <h2>HOW TO AVOID LOW WEB TRAFFIC AND CONVERSION?</h2>
+            <p>Your website is the first point of contact between your <span class="highlight">business</span> and your <span class="highlight">clients</span>.</p>
+            <ul>
+                <li>The challenges faced by CDG include creating brand awareness, optimizing its website, and facilitating leads in the sales funnel.</li>
+                <li>The solutions provided by Tru Performance relieved all the pain points and maximized the potential of content magnets.</li>
+                <li>The business impact of the solutions, leading to a 40% increase in the engagement rate and 30% increase in the conversion rates.</li>
+            </ul>
+        </div>
+        <div class="form-section">
+            <h3>Download the Casestudy</h3>
+            <form action="#" method="post">
+                <input type="text" name="first-name" placeholder="First Name" required>
+                <input type="text" name="last-name" placeholder="Last Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <input type="text" name="company-name" placeholder="Company Name" required>
+                <input type="text" name="job-title" placeholder="Job Title" required>
+                <input type="text" name="company-size" placeholder="Company Size" required>
+                <input type="text" name="country" placeholder="Country" required>
+                <input type="text" name="industry" placeholder="Industry" required>
+                <label>
+                    <input type="checkbox" required> I agree to receive information, tips, and offers about Tru Performance products and services.
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section class="cta-section">
+        <p>Tru Performance: Harmonizing Data, Design, and Development for Digital Mastery</p>
+        <p>Tru Performance redefines digital landscapes by integrating insightful analytics with innovative design and robust development.</p>
+    </section>
+    <style>
+       body 
+ 
+    {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    background: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f3f3f3;
+    padding: 50px;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.highlight {
+    color: #f8c20e; /* Gold Highlight */
+    font-weight: bold;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background: #fff;
+}
+
+.info-text {
+    width: 60%;
+}
+
+.info-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+ul {
+    margin: 20px 0;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.form-section {
+    width: 35%;
+    background: #f7f7f7;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"] {
+    width: 100%;
+    padding: 5px;
+    margin: 2px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f8c20e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-section {
+    background-color: #002744;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.cta-section p {
+    font-size: 1.2rem;
+}
+
+    </style>
+
+
+    <script src="scripts.js"></script>
+    <Script>
+        document.querySelector('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Form Submitted Successfully!');
+
+});
+    </Script>
+</body>
+</html>
